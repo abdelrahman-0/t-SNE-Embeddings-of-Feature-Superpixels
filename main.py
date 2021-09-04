@@ -48,7 +48,7 @@ for i, l in tqdm(enumerate(lengths), desc='Generating Patches'):
         patches.append(img[top:bottom, left:right])
 
 fig = overlay_tsne_patches(tsne_result, patches, figsize=(80,60), image_zoom=0.8)
-fig.savefig('tsne_thumbnails.pdf', format='pdf', bbox_inches='tight')
-fig.savefig('tsne_thumbnails.png', format='png', bbox_inches='tight')
+fig.savefig('tsne_thumbnails.pdf', format='pdf', bbox_inches='tight', transparent=True)
+fig.savefig('tsne_thumbnails.png', format='png', bbox_inches='tight', transparent=True)
 plt.close(fig)
 print('Fin')
