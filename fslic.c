@@ -265,10 +265,6 @@ void enforce_connectivity(int** labels, double** centers, int w, int h, int num_
         int c_x = centers[k][0];
         int c_y = centers[k][1];
 
-        //~ if(labels[c_y][c_x] != k){
-            //~ continue;
-        //~ }
-
         // Perform region growing on that cluster
         first = 0;
         last = 1;
@@ -306,6 +302,7 @@ void enforce_connectivity(int** labels, double** centers, int w, int h, int num_
                 }
             }
         }
+        
         // For each pixel, perform region growing and color it by its first cluster (make sure to mark the current small region as visited
         // since there could be multiple small regions)
         int last_neighbour = -1;
