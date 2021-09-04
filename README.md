@@ -6,7 +6,7 @@ Usage:
 `python3 main.py Dataset`
 
 <br>
-<img src="tsne_thumbnails.png" width="500" />
+<img src="tsne_thumbnails.png" width="800" />
 
 Van der Maaten, Laurens, and Geoffrey Hinton. "Visualizing data using t-SNE." Journal of machine learning research 9.11 (2008).
 
