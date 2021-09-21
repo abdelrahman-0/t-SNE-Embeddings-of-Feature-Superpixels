@@ -3,7 +3,7 @@ A two-dimensional embedding of feature superpixels obtained from a large dataset
 
 Usage:
 
-`$ python3 main.py Dataset`
+`$python3 main.py Dataset`
 
 <br>
 <img src="tsne_thumbnails.png" width="800" />
